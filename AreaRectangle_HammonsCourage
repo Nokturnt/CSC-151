@@ -1,0 +1,36 @@
+package arearectangle_hammonscourage;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author hammonsc3347
+ */
+public class AreaRectangle_HammonsCourage
+{
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args)
+    {
+    String Input;
+    int length;
+    int width;
+    int area;
+    
+    Input = JOptionPane.showInputDialog("Enter Length");
+    
+    length = Integer.parseInt(Input);
+    
+    Input = JOptionPane.showInputDialog("Enter Width");
+    
+    width = Integer.parseInt(Input);
+    
+    area = length * width;
+    
+    JOptionPane.showMessageDialog(null,
+                                  "Area of rectangle is " + area);
+            
+    }
+    
+}
